@@ -3,17 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageQueue", "MessageQueue\MessageQueue.csproj", "{FD13053D-DB41-40AF-B9D1-31EE9FDDD5DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageQueueService", "MessageQueue\MessageQueueService.csproj", "{FD13053D-DB41-40AF-B9D1-31EE9FDDD5DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{47A13D26-44A5-40F6-B637-7BDD32D2815B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{FDFA6CFF-87AF-4FA1-B48A-A6082112E94D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{5A7B62C8-3C2C-4DF0-B0B2-54915D8CCBBC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConsole", "ClientConsole\ClientConsole.csproj", "{285CDD92-CB25-418B-92F2-2FE05C55F187}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{1420EE22-8212-44D2-A0C8-8034AA595E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{0CB40D02-D581-46B4-B221-A854124F7D96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5135BAB3-106F-4EDF-BE64-18BB5B9051AA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +40,6 @@ Global
 		{FDFA6CFF-87AF-4FA1-B48A-A6082112E94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDFA6CFF-87AF-4FA1-B48A-A6082112E94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDFA6CFF-87AF-4FA1-B48A-A6082112E94D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A7B62C8-3C2C-4DF0-B0B2-54915D8CCBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A7B62C8-3C2C-4DF0-B0B2-54915D8CCBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A7B62C8-3C2C-4DF0-B0B2-54915D8CCBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A7B62C8-3C2C-4DF0-B0B2-54915D8CCBBC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{285CDD92-CB25-418B-92F2-2FE05C55F187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{285CDD92-CB25-418B-92F2-2FE05C55F187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{285CDD92-CB25-418B-92F2-2FE05C55F187}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +48,10 @@ Global
 		{1420EE22-8212-44D2-A0C8-8034AA595E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1420EE22-8212-44D2-A0C8-8034AA595E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1420EE22-8212-44D2-A0C8-8034AA595E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB40D02-D581-46B4-B221-A854124F7D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB40D02-D581-46B4-B221-A854124F7D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB40D02-D581-46B4-B221-A854124F7D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB40D02-D581-46B4-B221-A854124F7D96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

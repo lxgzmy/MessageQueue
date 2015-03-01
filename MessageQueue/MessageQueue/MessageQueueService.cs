@@ -10,19 +10,21 @@ using System.Threading.Tasks;
 
 namespace MessageQueue
 {
-    public partial class MessageQueue : ServiceBase
+    partial class MessageQueueService : ServiceBase
     {
-        public MessageQueue()
+        public MessageQueueService()
         {
             InitializeComponent();
         }
 
         protected override void OnStart(string[] args)
         {
+            // TODO: Add code here to start your service.
         }
 
         protected override void OnStop()
         {
+            // TODO: Add code here to perform any tear-down necessary to stop your service.
         }
     }
 }

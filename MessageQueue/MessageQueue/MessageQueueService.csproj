@@ -42,11 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MessageQueue.cs">
+    <Compile Include="MessageQueueService.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="MessageQueue.Designer.cs">
-      <DependentUpon>MessageQueue.cs</DependentUpon>
+    <Compile Include="MessageQueueService.Designer.cs">
+      <DependentUpon>MessageQueueService.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
